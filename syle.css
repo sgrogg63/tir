@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: url('images/lune.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding-top: 10vh;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+#clock {
+  font-size: 2em;
+  margin: 1em 0;
+}
+
+.quote {
+  font-style: italic;
+  margin: 1em auto;
+  max-width: 600px;
+}
+
+.links a {
+  margin: 0 15px;
+  color: #ffcccc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.search-bar {
+  margin-top: 2em;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+}
+
+.weather {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 1em;
+  text-align: right;
+}
+
